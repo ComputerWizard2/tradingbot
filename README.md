@@ -261,6 +261,36 @@ pip install -r requirements.txt
 
 ---
 
+## 🔐 Security Setup (API Keys)
+
+**IMPORTANT:** Never commit API keys to git!
+
+### Step 1: Create Environment File
+```bash
+# Copy the example file
+cp .env.example .env
+
+# Edit with your credentials
+nano .env  # or use any text editor
+```
+
+### Step 2: Fill in Your Credentials
+```bash
+# .env file
+METAAPI_TOKEN=your_actual_token_here
+METAAPI_ACCOUNT_ID=your_actual_account_id_here
+```
+
+### Step 3: Verify .env is Ignored
+The `.env` file is already in `.gitignore` - it will never be committed to git.
+
+**Get your MetaAPI credentials:**
+1. Sign up at [MetaAPI](https://metaapi.cloud/)
+2. Create a trading account connection
+3. Copy your API token and account ID
+
+---
+
 ## 📚 Quick Start Guide
 
 ### Step 1: Get the Data
