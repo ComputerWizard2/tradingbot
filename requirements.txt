@@ -1,0 +1,8 @@
+stable-baselines3
+pandas
+numpy
+MetaTrader5
+shimmy>=2.0
+torch>=2.0.0
+tqdm
+gymnasium
